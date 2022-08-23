@@ -1,0 +1,161 @@
+.home{
+    width: 100%;
+    height: 100%;
+}
+.homeLeftBlock{
+    width: 65%;
+    height: 100%;
+}
+.homeRightBlock{
+    width: 35%;
+    height: 100%;
+    background-color:#1F1D2B;
+}
+.HomeHeader{
+    width: 100%;
+    height: 13%;
+    color:#fff; 
+    padding: 0px 10px;
+}
+.header_date{
+    color: rgba(255, 255, 255, 0.682);
+}
+.header_search{
+    margin-right: 25px;
+}
+.homeMainBlock{
+    width: 100%;
+    height: 87%;
+    background-color:#EA7C69;
+}
+.homeMainMenu{
+    width: 100%;
+    height: 10%;
+    list-style-type: none;
+    padding: 10px 30px;
+    border-bottom: 1px rgba(255, 255, 255, 0.39) solid;
+    color:#fff;
+}
+.homeCards{
+    width: 100%;
+    height: 80%;
+    color:#fff;
+}
+.homeMenu{
+    color:#fff;
+    text-decoration: none;
+    cursor:pointer;
+}
+.homeMenu:active{
+    color:#EA7C69;
+    text-decoration: none;
+}
+.homeMenu:hover{
+    color:#EA7C69;
+    text-decoration: none;
+}
+.hotDishes{
+    height: 100%;
+}
+.hotDishesHeader{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hotDishesCardArea{
+    width: 100%;
+    height: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+}
+.hotDishesCard{
+    width: 30%;
+    background-color:#1F1D2B;
+    border-radius:15px;
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.hotDishesCard:hover{
+    box-shadow: 0px 0px 10px #EA7C69;
+}
+.hotDishesCard p{
+    opacity: 80%;
+}
+.FoodImg{
+    border-radius:50%;
+    width: 60%;
+}
+.orderHeader{
+    height: 20%;
+}
+.orderList{
+    height: 50%;
+    border-top: 1px solid rgba(255, 255, 255, 0.502);
+}
+.OrderImg{
+    width: 40%;
+    height: 100%;    
+}
+.homeOrderBtn{
+    border: #EA7C69 1px solid;
+    color:#EA7C69;
+}
+.PaymentBtn{
+    background-color: #EA7C69;
+    border: #EA7C69;
+    color:#fff;
+}
+.homeOrderInput::placeholder{
+    color:rgba(255, 255, 255, 0.514);
+}
+.int_Table{
+width: 100%;
+height: 95%;
+border-collapse: collapse;
+}
+.int_Table td{
+    border-top:1px solid rgba(255, 255, 255, 0.39);
+}
+.int_Table tr{
+    transition: 0.2s ease-in;
+    cursor:default;
+}
+.int_Table tr:hover{
+    background-color: #EA7C69;
+}
+@media only screen and (max-width:576px){
+    .homeLeftBlock{
+        width: 100%;
+        height: 100%;
+    }
+    .hotDishesCard{
+        width: 90%;
+    }
+    .hotDishesCardArea{
+        display: block;
+    }
+    .FoodImg{
+        width: 50%;
+    }
+    .homeMenu{
+        color:#fff;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .homeMenuActive{
+        color:#EA7C69;
+        text-decoration: none;
+        font-size: 15px;
+    }
+}

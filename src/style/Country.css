@@ -1,0 +1,74 @@
+.CountryBlock{
+    width: 100%;
+    height: 100%;
+}
+.CountryHeader{
+    width: 100%;
+    height: 13%;
+    color:#fff; 
+    padding: 0px 10px;
+    border-bottom:1px solid rgba(255, 255, 255, 0.413);
+}
+.country_date{
+    color: rgba(255, 255, 255, 0.682);
+}
+.country_search{
+    margin-right: 25px;
+}
+.CountryMainBlock{
+    height: 87%;
+    width: 100%;
+}
+.countryChips{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.CountryCards{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    overflow-y: scroll;
+}
+.CountryCard{
+    width: 23%;
+    background-color:#1F1D2B;
+    border-radius:15px;
+    list-style-type:none;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+.CountryCard:hover{
+    box-shadow: 0px 0px 10px #EA7C69;
+}
+.CountryCard p{
+    opacity: 80%;
+}
+.CountryCard li{
+    font-size: large;
+}
+.CountryImg{
+    border-radius:50%;
+    width: 50%;
+}
+
+@media only screen and (max-width:576px){
+    .CountryCard{
+        width: 90%;
+        margin-left: 15px;
+    }
+    .CountryCards{
+        display: block;
+    }
+    .CountryImg{
+        width: 50%;
+    }
+}
